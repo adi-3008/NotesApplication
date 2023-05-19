@@ -1,6 +1,6 @@
 package com.example.notesapplication.di
 
-import com.example.notesapplication.api.UserAPI
+import com.example.notesapplication.login.api.UserAPI
 import com.example.notesapplication.network.AuthNetworkInterceptor
 import com.example.notesapplication.utils.Constants.BASE_URL
 import dagger.Module
@@ -33,7 +33,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun providesUserAPI(retrofitBuilder: Builder) : UserAPI{
+    fun providesUserAPI(retrofitBuilder: Builder) : UserAPI {
         return retrofitBuilder.build().create(UserAPI::class.java)
     }
 
