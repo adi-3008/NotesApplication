@@ -1,6 +1,5 @@
 package com.example.notesapplication.note.repository
 
-import android.net.Network
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -13,7 +12,7 @@ import org.json.JSONObject
 import retrofit2.Response
 import javax.inject.Inject
 
-class UserRepository @Inject constructor(private val notesAPI : NoteAPI){
+class NoteRepository @Inject constructor(private val notesAPI : NoteAPI){
 
     private val _notesLiveData = MutableLiveData<ApiResult<List<NoteResponse>>>()
 

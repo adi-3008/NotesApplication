@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.notesapplication.login.ui.MainFragment"
+        android:name="com.example.notesapplication.note.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/noteFragment"
-        android:name="com.example.notesapplication.login.ui.NoteFragment"
+        android:name="com.example.notesapplication.note.ui.NoteFragment"
         android:label="fragment_note"
         tools:layout="@layout/fragment_note" />
 </navigation>
