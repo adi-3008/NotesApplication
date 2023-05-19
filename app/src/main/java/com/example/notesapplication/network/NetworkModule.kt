@@ -1,7 +1,6 @@
-package com.example.notesapplication.di
+package com.example.notesapplication.network
 
 import com.example.notesapplication.login.api.UserAPI
-import com.example.notesapplication.network.AuthNetworkInterceptor
 import com.example.notesapplication.utils.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides

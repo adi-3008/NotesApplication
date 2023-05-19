@@ -1,13 +1,13 @@
-package com.example.notesapplication.viewmodels
+package com.example.notesapplication.login.viewmodels
 
 import android.text.TextUtils
 import android.util.Patterns
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.notesapplication.models.UserRequest
-import com.example.notesapplication.models.UserResponse
-import com.example.notesapplication.repository.UserRepository
+import com.example.notesapplication.login.models.UserRequest
+import com.example.notesapplication.login.models.UserResponse
+import com.example.notesapplication.login.repository.UserRepository
 import com.example.notesapplication.utils.ApiResult
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers

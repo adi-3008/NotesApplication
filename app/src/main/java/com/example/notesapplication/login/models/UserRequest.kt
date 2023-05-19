@@ -1,4 +1,4 @@
-package com.example.notesapplication.models
+package com.example.notesapplication.login.models
 
 data class UserRequest(
     val email: String,

@@ -1,4 +1,4 @@
-package com.example.notesapplication.ui
+package com.example.notesapplication.login.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -10,9 +10,9 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.notesapplication.R
 import com.example.notesapplication.databinding.FragmentLoginBinding
-import com.example.notesapplication.models.UserRequest
+import com.example.notesapplication.login.models.UserRequest
 import com.example.notesapplication.utils.ApiResult
-import com.example.notesapplication.viewmodels.AuthViewModel
+import com.example.notesapplication.login.viewmodels.AuthViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

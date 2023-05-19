@@ -1,4 +1,4 @@
-package com.example.notesapplication.models
+package com.example.notesapplication.note.models
 
 data class NoteResponse(
     val __v: Int,

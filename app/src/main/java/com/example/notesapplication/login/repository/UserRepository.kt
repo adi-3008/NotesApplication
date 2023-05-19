@@ -1,11 +1,11 @@
-package com.example.notesapplication.repository
+package com.example.notesapplication.login.repository
 
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.notesapplication.api.UserAPI
-import com.example.notesapplication.models.UserRequest
-import com.example.notesapplication.models.UserResponse
+import com.example.notesapplication.login.api.UserAPI
+import com.example.notesapplication.login.models.UserRequest
+import com.example.notesapplication.login.models.UserResponse
 import com.example.notesapplication.utils.Constants.TAG
 import com.example.notesapplication.utils.ApiResult
 import org.json.JSONObject

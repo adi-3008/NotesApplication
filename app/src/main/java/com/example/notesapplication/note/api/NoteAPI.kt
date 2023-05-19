@@ -1,8 +1,7 @@
-package com.example.notesapplication.api
+package com.example.notesapplication.note.api
 
-import androidx.room.Update
-import com.example.notesapplication.models.NoteResponse
-import com.example.notesapplication.models.UserRequest
+import com.example.notesapplication.note.models.NoteResponse
+import com.example.notesapplication.login.models.UserRequest
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.DELETE
