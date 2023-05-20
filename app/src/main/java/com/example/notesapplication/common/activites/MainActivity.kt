@@ -1,4 +1,4 @@
-package com.example.notesapplication.login.activities
+package com.example.notesapplication.common.activites
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
